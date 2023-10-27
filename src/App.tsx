@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
+        <Route path="/" element={<TermsConditions />} />
         <Route path="/terms&conditions" element={<TermsConditions />} />
       </Routes>
       <Routes>
